@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSS — Agent Interface</title>
+  <meta name="description"
+    content="Portfolio of Murat Sinan Soycengiz — Consumer Behavior Researcher, Applied AI Enthusiast, and Marketing Strategist based in Istanbul." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Scanline overlay -->
+  <div class="scanline-overlay"></div>
+
+  <!-- Grid background -->
+  <div class="grid-bg"></div>
+
+  <!-- ─── Navbar ─── -->
+  <nav id="navbar" class="navbar">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-bracket">[</span>MSS<span class="logo-bracket">]</span>
+    </a>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="#about" data-label="identity">About</a></li>
+      <li><a href="#education" data-label="training">Education</a></li>
+      <li><a href="#experience" data-label="missions">Experience</a></li>
+      <li><a href="#projects" data-label="output">Projects</a></li>
+      <li><a href="#skills" data-label="matrix">Skills</a></li>
+      <li><a href="#contact" data-label="channel">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── Hero: Boot Sequence ─── -->
+  <section id="hero" class="hero">
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-content">
+      <div class="boot-sequence" id="boot-sequence">
+        <p class="boot-line" data-delay="0">
+          <span class="boot-prefix">&gt;</span> SYSTEM INITIALIZING<span class="dot-anim">...</span>
+        </p>
+        <p class="boot-line" data-delay="600">
+          <span class="boot-prefix">&gt;</span> LOADING AGENT PROFILE<span class="dot-anim">...</span>
+        </p>
+        <p class="boot-line" data-delay="1200">
+          <span class="boot-prefix">&gt;</span> STATUS: <span class="text-green">ONLINE</span>
+        </p>
+      </div>
+      <div class="hero-main" id="hero-main">
+        <p class="hero-label glitch-text" data-text="AGENT_ID">AGENT_ID</p>
+        <h1 class="hero-name">Murat Sinan<br />Soycengiz</h1>
+        <p class="hero-tagline" id="typed-tagline"></p>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-hud">
+            <span class="btn-corner tl"></span>
+            <span class="btn-corner tr"></span>
+            <span class="btn-corner bl"></span>
+            <span class="btn-corner br"></span>
+            ACCESS DOSSIER
+          </a>
+          <a href="#contact" class="btn btn-hud btn-hud-alt">
+            <span class="btn-corner tl"></span>
+            <span class="btn-corner tr"></span>
+            <span class="btn-corner bl"></span>
+            <span class="btn-corner br"></span>
+            OPEN CHANNEL
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span class="scroll-text">SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ─── About: Identity Module ─── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// MODULE: IDENTITY</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="dossier-panel hud-panel reveal-section">
+          <div class="panel-label">DOSSIER</div>
+          <div class="dossier-row">
+            <span class="dossier-key">DESIGNATION</span>
+            <span class="dossier-val">Murat Sinan Soycengiz</span>
+          </div>
+          <div class="dossier-row">
+            <span class="dossier-key">BASE</span>
+            <span class="dossier-val">Istanbul, Turkey</span>
+          </div>
+          <div class="dossier-row">
+            <span class="dossier-key">CLASSIFICATION</span>
+            <span class="dossier-val">MA Marketing (Consumer Behavior)</span>
+          </div>
+          <div class="dossier-row">
+            <span class="dossier-key">LANGUAGES</span>
+            <span class="dossier-val">Turkish · English · German · French</span>
+          </div>
+          <div class="dossier-row">
+            <span class="dossier-key">DOB</span>
+            <span class="dossier-val">12/09/1995</span>
+          </div>
+          <div class="dossier-row">
+            <span class="dossier-key">FOCUS_AREAS</span>
+            <span class="dossier-val">Consumer Behavior · Applied AI · Research Synthesis</span>
+          </div>
+        </div>
+        <div class="log-panel hud-panel reveal-section">
+          <div class="panel-label">LOG ENTRY</div>
+          <p>I grew up moving across countries and cities, which gave me a multicultural perspective and a habit of
+            staying curious. Now based in Istanbul, I'm interested in how people make decisions — where emotional
+            meaning meets practical value.</p>
+          <p>Research is a big part of how I work, and I like making sense of messy information. I hold an MA in
+            Marketing (Consumer Behavior) from Istanbul Bilgi University and a double major in Psychology &amp;
+            Sociology. I apply this behavioral lens to practical problem-solving, and I'm happy to use LLM tools or a
+            small automation when it genuinely helps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Education: Training Data ─── -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// TRAINING_DATA</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline-h" id="timeline-h">
+
+        <div class="tl-track">
+          <div class="tl-line"></div>
+          <div class="tl-node active" data-index="0"></div>
+          <div class="tl-node" data-index="1"></div>
+        </div>
+
+        <div class="tl-cards">
+          <div class="tl-card hud-panel reveal-section">
+            <span class="tl-date">2022 – 2025</span>
+            <h3>MA in Marketing (Consumer Behavior)</h3>
+            <p class="tl-sub">Istanbul Bilgi University — Istanbul, Turkey</p>
+            <p class="tl-gpa">GPA: 3.76</p>
+            <p class="tl-detail">Thesis: <em>"Lonely Minds, Meaningful Choices: Mapping Intentions in Health,
+                Experience, and Hedonics"</em></p>
+          </div>
+          <div class="tl-card hud-panel reveal-section">
+            <span class="tl-date">2017 – 2021</span>
+            <h3>Double Major: Psychology &amp; Sociology</h3>
+            <p class="tl-sub">Istanbul Bilgi University — Istanbul, Turkey</p>
+            <p class="tl-gpa">Honours · ECTS: 339 · GPA: 3.27</p>
+            <p class="tl-detail">Thesis: <em>The Relationship Between Terror Management Theory and Schwartz Values</em>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Experience: Mission Logs ─── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// MISSION_LOGS</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="mission-grid mission-grid-2">
+
+        <div class="mission-card hud-panel glitch-hover reveal-section">
+          <div class="mission-header">
+            <span class="status-dot active"></span>
+            <span class="status-label">ACTIVE</span>
+            <span class="mission-dates">2022 – PRESENT</span>
+          </div>
+          <h3>Applied AI &amp; Automation</h3>
+          <p class="mission-sub">Freelance / Independent · Remote &amp; Istanbul</p>
+          <ul class="mission-list">
+            <li>LLM-assisted problem-solving, drafting, and rapid prototyping</li>
+            <li>Research → synthesis → application workflows</li>
+            <li>Lightweight automations with n8n; API integrations (Telegram, Twitter)</li>
+            <li>Web research &amp; data collection experiments</li>
+          </ul>
+        </div>
+
+        <div class="mission-card hud-panel glitch-hover reveal-section">
+          <div class="mission-header">
+            <span class="status-dot completed"></span>
+            <span class="status-label">COMPLETED</span>
+            <span class="mission-dates">2021 – 2024</span>
+          </div>
+          <h3>Web3 &amp; Community Operations</h3>
+          <p class="mission-sub">Freelance · Remote</p>
+          <ul class="mission-list">
+            <li>Community management: announcements, engagement, support</li>
+            <li>Structured messaging aligned with project goals</li>
+            <li>Pre-sales communications and coordination</li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="experience-note reveal-section">&gt; Earlier roles in sales, translation, and admin omitted for focus
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── Projects: Application Portfolio ─── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// OUTPUT_LOG</span>
+        <h2 class="section-title">Application Portfolio</h2>
+      </div>
+
+      <!-- Category: AI & Automation -->
+      <div class="portfolio-lane reveal-section">
+        <div class="lane-header">
+          <span class="lane-icon">⟁</span>
+          <h3 class="lane-title">AI &amp; Automation</h3>
+        </div>
+        <div class="lane-items">
+          <a href="https://researchme.vercel.app/" target="_blank" rel="noopener" class="lane-item glitch-hover">
+            <div class="lane-item-top">
+              <span class="item-name">Research Scope AI</span>
+              <span class="status-dot active"></span>
+            </div>
+            <p class="item-desc">AI-powered academic article discovery with context-aware relevancy scoring</p>
+            <span class="item-link">LAUNCH ↗</span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="lane-divider"></div>
+
+      <!-- Category: Academic Research -->
+      <div class="portfolio-lane reveal-section">
+        <div class="lane-header">
+          <span class="lane-icon lane-icon-violet">◉</span>
+          <h3 class="lane-title">Academic Research</h3>
+        </div>
+        <div class="lane-items">
+          <div class="lane-item glitch-hover">
+            <div class="lane-item-top">
+              <span class="item-name">MA Research — Consumer Decision-Making</span>
+            </div>
+            <p class="item-desc">Experimental study on how loneliness shapes meaningful consumption intentions across
+              health, experience, and hedonic domains</p>
+          </div>
+          <div class="lane-item glitch-hover">
+            <div class="lane-item-top">
+              <span class="item-name">BA Research — Existential Psychology</span>
+            </div>
+            <p class="item-desc">Quantitative analysis of how mortality salience interacts with Schwartz's universal
+              value dimensions</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lane-divider"></div>
+
+      <!-- Category: Web3 Projects -->
+      <div class="portfolio-lane reveal-section">
+        <div class="lane-header">
+          <span class="lane-icon lane-icon-pink">⬡</span>
+          <h3 class="lane-title">Web3 Projects</h3>
+        </div>
+        <div class="lane-items">
+          <div class="lane-item glitch-hover">
+            <div class="lane-item-top">
+              <span class="item-name">Ukiyo</span>
+            </div>
+            <p class="item-desc">Community management, engagement campaigns, and messaging strategy for an NFT project
+            </p>
+          </div>
+          <div class="lane-item glitch-hover">
+            <div class="lane-item-top">
+              <span class="item-name">Elite Emperors</span>
+            </div>
+            <p class="item-desc">Pre-sales coordination, structured announcements, and community support operations</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── Skills: Capability Matrix ─── -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// CAPABILITY_MATRIX</span>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+      </div>
+
+      <!-- Radar Chart -->
+      <div class="radar-wrap reveal-section">
+        <svg id="radar-chart" class="radar-chart" viewBox="0 0 400 400"></svg>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal-section">
+          <h3 class="skill-group-title"><span class="sg-icon">◈</span> Applied AI / Workflow</h3>
+          <div class="skill-pills">
+            <span class="pill">LLM-Assisted Prototyping</span>
+            <span class="pill">Claude Code</span>
+            <span class="pill">AI Agents</span>
+            <span class="pill">Research Synthesis</span>
+            <span class="pill">Case-Based Learning</span>
+          </div>
+        </div>
+        <div class="skill-group reveal-section">
+          <h3 class="skill-group-title"><span class="sg-icon">◈</span> Automation / Ops</h3>
+          <div class="skill-pills">
+            <span class="pill">n8n</span>
+            <span class="pill">API Integrations</span>
+            <span class="pill">Telegram Bots</span>
+            <span class="pill">Twitter API</span>
+            <span class="pill">Workflow Automation</span>
+          </div>
+        </div>
+        <div class="skill-group reveal-section">
+          <h3 class="skill-group-title"><span class="sg-icon">◈</span> Analytics &amp; Productivity</h3>
+          <div class="skill-pills">
+            <span class="pill">SPSS</span>
+            <span class="pill">Jamovi</span>
+            <span class="pill">Excel</span>
+            <span class="pill">PowerPoint</span>
+            <span class="pill">Word</span>
+          </div>
+        </div>
+        <div class="skill-group reveal-section">
+          <h3 class="skill-group-title"><span class="sg-icon">◈</span> Can Read &amp; Follow Along</h3>
+          <div class="skill-pills">
+            <span class="pill pill-dim">Python</span>
+            <span class="pill pill-dim">JavaScript</span>
+            <span class="pill pill-dim">Solidity</span>
+            <span class="pill pill-dim">HTML / CSS</span>
+            <span class="pill pill-dim">Blockchain Concepts</span>
+          </div>
+        </div>
+        <div class="skill-group reveal-section">
+          <h3 class="skill-group-title"><span class="sg-icon">◈</span> Languages</h3>
+          <div class="skill-pills">
+            <span class="pill pill-lang">Turkish — Native</span>
+            <span class="pill pill-lang">English — C1-C2</span>
+            <span class="pill pill-lang">German — Intermediate</span>
+            <span class="pill pill-lang">French — Basic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact: Comm Channel ─── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal-section">
+        <span class="module-tag">// COMM_CHANNEL</span>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+      <p class="contact-subtitle reveal-section">&gt; Establishing secure connection...</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal-section">
+          <a href="mailto:sinan.soycengiz@googlemail.com" class="contact-card hud-panel">
+            <span class="contact-key">EMAIL</span>
+            <span class="contact-val">sinan.soycengiz@googlemail.com</span>
+          </a>
+          <a href="tel:+905063863969" class="contact-card hud-panel">
+            <span class="contact-key">PHONE</span>
+            <span class="contact-val">(+90) 506 386 3969</span>
+          </a>
+          <div class="contact-card hud-panel">
+            <span class="contact-key">LOCATION</span>
+            <span class="contact-val">Istanbul, Turkey</span>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/murat-sinan-soycengiz-1688b21a4/" target="_blank" rel="noopener"
+              class="social-link" title="LinkedIn">in</a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="social-link" title="GitHub">gh</a>
+            <a href="https://x.com/" target="_blank" rel="noopener" class="social-link" title="X / Twitter">x</a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form hud-panel reveal-section" onsubmit="return false;">
+          <div class="panel-label">TRANSMISSION TERMINAL</div>
+          <div class="form-group">
+            <label class="form-label">SENDER_NAME</label>
+            <input type="text" id="form-name" placeholder="Enter designation..." required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">SENDER_EMAIL</label>
+            <input type="email" id="form-email" placeholder="Enter comm address..." required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">MESSAGE_BODY</label>
+            <textarea id="form-message" placeholder="Enter transmission data..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-hud btn-full">
+            <span class="btn-corner tl"></span>
+            <span class="btn-corner tr"></span>
+            <span class="btn-corner bl"></span>
+            <span class="btn-corner br"></span>
+            TRANSMIT
+          </button>
+          <div id="form-feedback" class="form-feedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="footer">
+    <p><span class="text-muted">[SYS]</span> &copy; 2026 Murat Sinan Soycengiz. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

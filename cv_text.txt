@@ -1,0 +1,147 @@
+Murat Sinan Soycengiz 
+Address 
+Email 
+Phone 
+Istanbul, Turkey 
+sinan.soycengiz@googlemail.com (+90) 5063863969 
+ Date of Birth: 12/09/1995 | Nationality: Turkish 
+ 
+Profile 
+I grew up moving across countries and cities, which gave me a multicultural perspective and a habit of 
+staying curious. Now based in Istanbul, I’m interested in how people make decisions, where emotional 
+meaning meets practical value. Research is a big part of how I work, and I like making sense of messy 
+information. I hold an MA in Marketing (Consumer Behavior) from Istanbul Bilgi University (thesis on 
+consumer loneliness and purchase intentions) and a double major in Psychology & Sociology. I apply this 
+behavioral lens to practical problem-solving, and I’m happy to use LLM tools or a small automation when it 
+genuinely helps. 
+ 
+Education 
+ 
+Istanbul Bilgi University — Istanbul, Turkey 
+MA in Marketing (Consumer Behavior) | 2022 – 2025 | GPA: 3.76 
+Thesis: Consumer loneliness and its impact on purchase intentions 
+(Original title: “Lonely Minds, Meaningful Choices: Mapping Intentions in Health, Experience, and 
+Hedonics”) 
+Istanbul Bilgi University — Istanbul, Turkey 
+Double Major: Psychology & Sociology | 2017 – 2021 | Honours | ECTS: 339 
+Final GPA: 3.27 | Psychology GPA: 3.45 | Sociology GPA: 3.08 
+Undergraduate Thesis: The Relationship Between Terror Management Theory and Schwartz Values 
+Ministerium für Schule und Berufsbildung des Landes Schleswig-Holstein — Lübeck, 
+Germany 
+Mittleren Schulabschluss | 2015 
+Open Education High School — Turkey 
+High School Diploma | 2017 
+ 
+Work Experience 
+ 
+Applied AI & Automation Projects (Freelance / Independent) | 2022 – Present | Remote / 
+Istanbul 
+ 
+Use LLM tools (e.g., Claude Code and others) to support problem-solving, drafting, and quick 
+prototyping 
+ 
+Research existing examples/cases and adapt them to the needs of the task (research → summary 
+→ application) 
+ 
+Build small automations with n8n when a workflow is repetitive or needs lightweight orchestration 
+ 
+Experiment with integrations (Telegram/Twitter/API) and adjust to API updates/changes 
+ 
+Run web research and basic data collection/scraping experiments (where permitted) 
+ 
+Portfolio: DM for examples (Vercel) 
+Web3 & Community Operations (Freelance) | 2021 – 2024 | Remote 
+Projects: Ukiyo; Elite Emperors 
+
+---PAGE---
+ 
+Managed community operations: announcements, engagement, support, and coordination 
+ 
+Helped structure messaging and narrative tone in line with project goals and community needs 
+ 
+Supported pre-sales communications and day-to-day coordination with collaborators 
+Sales Manager — CP Makina | 2023 – 2024 | Istanbul, Turkey 
+ 
+Supported sales planning and monitored performance 
+ 
+Built and maintained client relationships 
+ 
+Helped improve product information and sales materials for clearer communication 
+ 
+Participated in negotiation and closing processes 
+Sales Representative (Part-time) — Beymen | 2016 – 2017 | Istanbul, Turkey 
+ 
+Customer-facing sales and service; supported store performance through client engagement 
+Assistant Specialist — Forte Tourism | 2014 – 2016 | Lübeck, Germany 
+ 
+Translation support and guidance for visiting medical professionals 
+Bartender (Part-time) — Dr. Rock | 2014 – 2016 | Lübeck, Germany 
+ 
+Service and operations support in a fast-paced environment 
+Intern — I.S.S. International Sales & Services GmbH | 2014 | Lübeck, Germany 
+ 
+Data entry and administrative support (UPS products) 
+ 
+Volunteer Experience 
+2020 - 2022: Head of Club, Bilgili Patiler — Istanbul Bilgi University 
+ 
+Led vaccination and nutrition programs for campus animals 
+ 
+Managed social media platforms 
+ 
+Supported campus animal well-being throughout the COVID-19 pandemic 
+2020 - 2021: Volunteer Teacher Assistant (organizational psychology) — Istanbul Bilgi 
+University 
+ 
+Translated questionnaire items 
+ 
+Optimized job satisfaction surveys 
+ 
+Helped students with SPSS-related subjects 
+2019 - 2020: Volunteer Research Assistant  (social psychology) — Istanbul Bilgi University 
+ 
+Transcribed and supported analysis the interviews on womanhood 
+ 
+ 
+SKILLS & TOOLS 
+ Applied AI / Workflow 
+ 
+LLM-assisted problem exploration & prototyping (Claude Code + others (including agents etc)) 
+ 
+Research → synthesis → application approach (case-based learning and adaptation) 
+ Automation / Ops 
+ 
+n8n (basic automations & workflow wiring) 
+ 
+API experiments & lightweight integrations (Telegram/Twitter) 
+ Analytics & Productivity 
+ 
+Excel, PowerPoint, Word 
+ 
+SPSS, Jamovi 
+ Technical (basic) 
+ 
+Python (basic), Node.js (basic), Solidity (basic), Rust (basic), Three.js (basic) 
+ 
+Blockchain structure 
+ 
+
+---PAGE---
+ 
+ 
+ 
+LANGUAGES 
+ 
+Turkish — Native 
+ 
+English — C1-C2 
+ 
+German — Intermediate (Realschulabschluss background) 
+ 
+French — Basic 
+ 
+ 
+Interest areas: consumer behavior, practical applied AI, research synthesis, lightweight automation, 
+emerging technologies, AGI, promotheus 
+
+---PAGE---
